@@ -1,0 +1,72 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    314-0123
+Date:        Sat Dec 30 15:41:12 2023
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro HC153_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "HC153_syn.tcl"
+New HDL Analyst: enabled
+log file: "D:\74HC153\HC153\synthesis\HC153.srr"
+Running: synthesis in foreground
+
+Running HC153_syn|synthesis
+
+Running: compile (Compile) on HC153_syn|synthesis
+# Sat Dec 30 15:41:29 2023
+
+Running: compile_flow (Compile Process) on HC153_syn|synthesis
+# Sat Dec 30 15:41:29 2023
+
+Running: compiler (Compile Input) on HC153_syn|synthesis
+# Sat Dec 30 15:41:29 2023
+
+compiler completed
+# Sat Dec 30 15:41:29 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Running: multi_srs_gen (Multi-srs Generator) on HC153_syn|synthesis
+# Sat Dec 30 15:41:29 2023
+Up-To-Date: multi_srs_gen. No run necessary
+Complete: Compile Process on HC153_syn|synthesis
+
+Running: premap (Pre-mapping) on HC153_syn|synthesis
+# Sat Dec 30 15:41:29 2023
+
+premap completed
+# Sat Dec 30 15:41:30 2023
+
+Return Code: 0
+Run Time:00h:00m:01s
+Complete: Compile on HC153_syn|synthesis
+
+Running: map (Map) on HC153_syn|synthesis
+# Sat Dec 30 15:41:30 2023
+
+Running: fpga_mapper (Map & Optimize) on HC153_syn|synthesis
+# Sat Dec 30 15:41:30 2023
+Copied D:\74HC153\HC153\synthesis\synwork\HC153_m.srm to D:\74HC153\HC153\synthesis\HC153.srm
+
+fpga_mapper completed
+# Sat Dec 30 15:41:30 2023
+
+Return Code: 0
+Run Time:00h:00m:00s
+Complete: Map on HC153_syn|synthesis
+Complete: Logic Synthesis on HC153_syn|synthesis
+Note: Opening local project RTL file 'D:\74HC153\HC153\synthesis\HC153.srs'
+exit status=0
+License checkin: synplifypro_actel

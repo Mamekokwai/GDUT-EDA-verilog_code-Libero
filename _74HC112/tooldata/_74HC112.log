@@ -1,0 +1,16 @@
+Project Name: _74HC112
+Location: D:\chang\_74HC112
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3P060-VQ100
+Family         : ProASIC3
+Die            : A3P060
+Package        : 100 VQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

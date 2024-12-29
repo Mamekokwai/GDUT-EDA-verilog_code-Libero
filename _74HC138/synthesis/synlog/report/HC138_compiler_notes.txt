@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\74HC138\HC138\hdl\HC138.v":1:7:1:11|Synthesizing module HC138 in library work.
+@N|Running in 64-bit mode
+

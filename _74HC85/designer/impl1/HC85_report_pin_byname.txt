@@ -1,0 +1,23 @@
+*****************************************************************
+Pin Report - Date: Sat Dec 30 16:42:03 2023 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+Design Name: HC85
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+A[0]  15   No     GFA1/IO84RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+A[1]  97   No     GAA1/IO03RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+A[2]  32   No     IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+A[3]  35   No     IO62RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+B[0]  31   No     IO66RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+B[1]  98   No     GAA0/IO02RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+B[2]  94   No     GAC0/IO06RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+B[3]  36   No     IO61RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+O[0]  34   No     IO63RSB1       LVTTL    12                 High  None           No    35                No           No
+O[1]  40   No     IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+O[2]  93   No     GAC1/IO07RSB0  LVTTL    12                 High  None           No    35                No           No

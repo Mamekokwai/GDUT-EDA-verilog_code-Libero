@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/GDUT_EDA_Libero_verilog code/three_always/simulation
+v_3always
+Z1 !s110 1735459978
+!i10b 1
+!s100 ne8[Q5We7AX[YhZ76RJdf0
+InSHF2h1:V0P2NJYlfCVFM2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735459971
+8D:/GDUT_EDA_Libero_verilog code/three_always/synthesis/_3always.v
+FD:/GDUT_EDA_Libero_verilog code/three_always/synthesis/_3always.v
+L0 5
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1735459978.000000
+!s107 D:/GDUT_EDA_Libero_verilog code/three_always/synthesis/_3always.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|D:/GDUT_EDA_Libero_verilog code/three_always/synthesis/_3always.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work postsynth -O0
+Z6 tCvgOpt 0
+n@_3always
+vtest3
+R1
+!i10b 1
+!s100 9U[cZ^RFia5fkDej3:E`z0
+I?MnO<6Lh_b`gQjZ7^TQb10
+R2
+R0
+w1735459822
+8D:/GDUT_EDA_Libero_verilog code/three_always/stimulus/test3.v
+FD:/GDUT_EDA_Libero_verilog code/three_always/stimulus/test3.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/GDUT_EDA_Libero_verilog code/three_always/stimulus/test3.v|
+!s90 -reportprogress|300|+incdir+D:/GDUT_EDA_Libero_verilog code/three_always/stimulus|-vlog01compat|-work|postsynth|D:/GDUT_EDA_Libero_verilog code/three_always/stimulus/test3.v|
+!s101 -O0
+!i113 1
+R5
+!s92 {+incdir+D:/GDUT_EDA_Libero_verilog code/three_always/stimulus} -vlog01compat -work postsynth -O0
+R6

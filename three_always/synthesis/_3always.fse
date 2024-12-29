@@ -1,0 +1,12 @@
+
+fsm_encoding {5404401} original
+
+fsm_state_encoding {5404401} s0 {00}
+
+fsm_state_encoding {5404401} s1 {01}
+
+fsm_state_encoding {5404401} s3 {10}
+
+fsm_state_encoding {5404401} s2 {11}
+
+fsm_registers {5404401} {current_state[1]}  {current_state[0]} 

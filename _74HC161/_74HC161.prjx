@@ -1,0 +1,337 @@
+KEY LIBERO "11.9"
+KEY CAPTURE "11.9.1.0"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VERILOG"
+KEY VERILOGMODE "VERILOG2001"
+KEY VHDLMODE "VHDL2008"
+KEY UseConstraintFlowTechnology "FALSE"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS2X2M1"
+KEY VendorTechnology_Package "vq100"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.5"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "IS2X2M1"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "D:\chang\_74HC161"
+KEY ProjectDescription ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY SimulationType "VERILOG"
+KEY Vendor "Actel"
+KEY ActiveRoot "_74HC161::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST FileManager
+VALUE "<project>\designer\impl1\HC161.ide_des,ide_des"
+STATE="utd"
+TIME="1735437842"
+SIZE="174"
+ENDFILE
+VALUE "<project>\designer\impl1\_74HC161.adb,adb"
+STATE="utd"
+TIME="1735453735"
+SIZE="36352"
+ENDFILE
+VALUE "<project>\designer\impl1\_74HC161.ide_des,ide_des"
+STATE="utd"
+TIME="1735443559"
+SIZE="177"
+ENDFILE
+VALUE "<project>\designer\impl1\_74HC161.pdb,pdb"
+STATE="utd"
+TIME="1735453789"
+SIZE="16125"
+ENDFILE
+VALUE "<project>\designer\impl1\_74HC161_ba.sdf,ba_sdf"
+STATE="utd"
+TIME="1735453775"
+SIZE="18417"
+ENDFILE
+VALUE "<project>\designer\impl1\_74HC161_ba.v,ba_hdl"
+STATE="utd"
+TIME="1735453775"
+SIZE="5694"
+ENDFILE
+VALUE "<project>\designer\impl1\_74HC161_compile_log.rpt,log"
+STATE="utd"
+TIME="1735453735"
+SIZE="7582"
+ENDFILE
+VALUE "<project>\hdl\HC161.v,hdl"
+STATE="utd"
+TIME="1735443643"
+SIZE="848"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1735438455"
+SIZE="623"
+ENDFILE
+VALUE "<project>\simulation\test161_postsynth_simulation.log,log"
+STATE="utd"
+TIME="1735443795"
+SIZE="68"
+ENDFILE
+VALUE "<project>\simulation\test161_presynth_simulation.log,log"
+STATE="utd"
+TIME="1735443671"
+SIZE="68"
+ENDFILE
+VALUE "<project>\stimulus\test161.v,tb_hdl"
+STATE="utd"
+TIME="1735453509"
+SIZE="1188"
+ENDFILE
+VALUE "<project>\synthesis\HC161.edn,syn_edn"
+STATE="ood"
+TIME="1735442748"
+SIZE="15300"
+ENDFILE
+VALUE "<project>\synthesis\HC161.so,so"
+STATE="utd"
+TIME="1735441973"
+SIZE="197"
+ENDFILE
+VALUE "<project>\synthesis\HC161_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1735442748"
+SIZE="392"
+ENDFILE
+VALUE "<project>\synthesis\HC161_syn.prj,prj"
+STATE="utd"
+TIME="1735438867"
+SIZE="562"
+ENDFILE
+VALUE "<project>\synthesis\_74HC161.edn,syn_edn"
+STATE="utd"
+TIME="1735443778"
+SIZE="19765"
+ENDFILE
+VALUE "<project>\synthesis\_74HC161.so,so"
+STATE="utd"
+TIME="1735443778"
+SIZE="203"
+ENDFILE
+VALUE "<project>\synthesis\_74HC161.v,syn_hdl"
+STATE="ood"
+TIME="1735443790"
+SIZE="3694"
+ENDFILE
+VALUE "<project>\synthesis\_74HC161_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1735443778"
+SIZE="397"
+ENDFILE
+VALUE "<project>\synthesis\_74HC161_syn.prj,prj"
+STATE="utd"
+TIME="1735443779"
+SIZE="1666"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "_74HC161::work"
+FILE "<project>\hdl\HC161.v,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\test161.v,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\_74HC161.adb,adb)=StateSuccess
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\_74HC161.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST PinReports
+VALUE "<project>\designer\impl1\_74HC161_report_pin_byname.txt,log"
+VALUE "<project>\designer\impl1\_74HC161_report_pin_bynumber.txt,log"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST _74HC161
+VALUE "<project>\stimulus\test161.v,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=test161
+TopInstanceName=u161
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=FALSE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Modelsim\win32acoem\modelsim.exe"
+PARAM=" -l test161_postsynth_simulation.log "
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="FPExpress"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Designer\bin\FPExpress.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microsemi\Libero_SoC_v11.9\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "_74HC161::work"
+LIST Impl1
+LiberoState=Post_Layout
+ideDESIGNER(<project>\designer\impl1\_74HC161.adb,adb)=StateSuccess
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\_74HC161.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Compile:_74HC161_compile_log.rpt
+HDL;stimulus\test161.v;0
+HDL;hdl\HC161.v;0
+StartPage;StartPage;0
+ACTIVEVIEW;stimulus\test161.v
+ENDLIST
+LIST ModuleSubBlockList
+LIST "_74HC161::work","hdl\HC161.v","FALSE","FALSE"
+ENDLIST
+LIST "test161::work","stimulus\test161.v","FALSE","TRUE"
+SUBBLOCK "_74HC161::work","hdl\HC161.v","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

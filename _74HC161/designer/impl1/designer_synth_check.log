@@ -1,0 +1,38 @@
+Microsemi Libero Software
+Version: 11.9.1.0
+Release: v11.9 SP1
+
+Created a new design.
+'BA_NAME' set to '_74HC161_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'D:\chang\_74HC161\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+'DESDIR' set to 'D:/chang/_74HC161/designer/impl1'
+'BA_DIR' set to 'D:/chang/_74HC161/designer/impl1'
+'BA_NETLIST_ALSO' set to '1'
+'EDNINFLAVOR' set to 'GENERIC'
+'NETLIST_NAMING_STYLE' set to 'VERILOG'
+'EXPORT_STATUS_REPORT' set to '1'
+'EXPORT_STATUS_REPORT_FILENAME' set to '_74HC161.rpt'
+'AUDIT_NETLIST_FILE' set to '1'
+'AUDIT_DCF_FILE' set to '1'
+'AUDIT_PIN_FILE' set to '1'
+'AUDIT_ADL_FILE' set to '1'
+
+ Netlist Reading Time = 0.0 seconds
+Imported the file:
+   D:\chang\_74HC161\synthesis\_74HC161.edn
+
+The Import command succeeded ( 00:00:02 )
+Warning: Overwriting the existing file: ../../synthesis/_74HC161.v.
+Wrote to the file: ..\..\synthesis\_74HC161.v
+
+The Export command succeeded ( 00:00:02 )
+
+The Execute Script command succeeded ( 00:00:06 )
+Warning: The database was closed without a save, modifications are lost
+Design closed.
+

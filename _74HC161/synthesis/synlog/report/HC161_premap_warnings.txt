@@ -1,0 +1,1 @@
+@W: MT530 :"d:\chang\_74hc161\hdl\hc161.v":11:4:11:9|Found inferred clock HC161|CP which controls 4 sequential elements including qaux[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 

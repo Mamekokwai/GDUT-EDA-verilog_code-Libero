@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell HC138.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         6       0.0        0.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                OR3         4       1.0        4.0
+                               OR3A         5       1.0        5.0
+                             OUTBUF         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             29                 13.0

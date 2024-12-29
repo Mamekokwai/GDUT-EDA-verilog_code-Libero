@@ -1,0 +1,29 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 16:11:22 on Dec 30,2023
+# vlog -reportprogress 300 -vlog01compat -work postsynth D:/74HC138/HC138/synthesis/HC138.v 
+# -- Compiling module HC138
+# 
+# Top level modules:
+# 	HC138
+# End time: 16:11:22 on Dec 30,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 16:11:22 on Dec 30,2023
+# vlog -reportprogress 300 "+incdir+D:/74HC138/HC138/stimulus" -vlog01compat -work postsynth D:/74HC138/HC138/stimulus/testbench.v.v 
+# ** Error: (vlog-13069) D:/74HC138/HC138/stimulus/testbench.v.v(30): near ".": syntax error, unexpected '.', expecting "SystemVerilog keyword 'import'" or ';' or '#' or '('.
+# End time: 16:11:22 on Dec 30,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Microsemi/Libero_SoC_v11.9/Modelsim/win32acoem/vlog failed.
+# Error in macro ./run.do line 14
+# C:/Microsemi/Libero_SoC_v11.9/Modelsim/win32acoem/vlog failed.
+#     while executing
+# "vlog "+incdir+${PROJECT_DIR}/stimulus" -vlog01compat -work postsynth "${PROJECT_DIR}/stimulus/testbench.v.v""

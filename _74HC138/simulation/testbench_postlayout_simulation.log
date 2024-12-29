@@ -1,0 +1,105 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/impl1/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:59:52 on Jan 11,2024
+# vlog -reportprogress 300 -vlog01compat -work postlayout D:/HC138/designer/impl1/HC138_ba.v 
+# -- Compiling module HC138
+# 
+# Top level modules:
+# 	HC138
+# End time: 13:59:52 on Jan 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 13:59:53 on Jan 11,2024
+# vlog -reportprogress 300 "+incdir+D:/HC138/stimulus" -vlog01compat -work postlayout D:/HC138/stimulus/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 13:59:53 on Jan 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /ul=D:/HC138/designer/impl1/HC138_ba.sdf postlayout.testbench 
+# Start time: 13:59:53 on Jan 11,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postlayout.testbench
+# Loading postlayout.HC138
+# Loading proasic3.IOPAD_IN
+# Loading proasic3.IOTRI_OB_EB
+# Loading proasic3.OR3A
+# Loading proasic3.IOPAD_TRI
+# Loading proasic3.OR2A
+# Loading proasic3.OR2B
+# Loading proasic3.IOIN_IB
+# Loading proasic3.OR3
+# Loading proasic3.OR2
+# Loading proasic3.GND
+# Loading proasic3.VCC
+# Loading instances from D:/HC138/designer/impl1/HC138_ba.sdf
+# Loading timing data from D:/HC138/designer/impl1/HC138_ba.sdf
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: D:/HC138/stimulus/testbench.v
+# tiem=                   0,E=000,A=000,Y=xxxxxxxx
+# tiem=                5000,E=100,A=000,Y=xxxxxxxx
+# tiem=                6000,E=100,A=000,Y=11x1xxxx
+# tiem=                6000,E=100,A=000,Y=1111xxxx
+# tiem=                7000,E=100,A=000,Y=1111x1xx
+# tiem=                7000,E=100,A=000,Y=111111xx
+# tiem=                7000,E=100,A=000,Y=1111111x
+# tiem=                8000,E=100,A=000,Y=11111111
+# tiem=               10000,E=111,A=000,Y=11111111
+# tiem=               15000,E=000,A=000,Y=11111111
+# tiem=               20000,E=000,A=001,Y=11111111
+# tiem=               25000,E=000,A=010,Y=11111111
+# tiem=               30000,E=000,A=011,Y=11111111
+# tiem=               35000,E=000,A=100,Y=11111111
+# tiem=               40000,E=000,A=101,Y=11111111
+# tiem=               45000,E=000,A=110,Y=11111111
+# tiem=               50000,E=000,A=111,Y=11111111
+# tiem=               55000,E=001,A=111,Y=11111111
+# tiem=               60000,E=001,A=001,Y=11111111
+# tiem=               63000,E=001,A=001,Y=01111111
+# ** Error: src/proasic3.v(27148): $width( negedge D:63188 ps, :64088 ps, 2 ns );
+#    Time: 64088 ps  Iteration: 0  Instance: /testbench/ul/\Y_pad[3]/U0/U0 
+# tiem=               65000,E=001,A=010,Y=01111111
+# tiem=               66000,E=001,A=010,Y=11111111
+# tiem=               66000,E=001,A=010,Y=11110111
+# tiem=               67000,E=001,A=010,Y=11111111
+# tiem=               68000,E=001,A=010,Y=11111101
+# tiem=               70000,E=001,A=011,Y=11111101
+# tiem=               72000,E=001,A=011,Y=11111111
+# tiem=               73000,E=001,A=011,Y=11111011
+# tiem=               75000,E=001,A=100,Y=11111011
+# tiem=               76000,E=001,A=100,Y=11111111
+# tiem=               78000,E=001,A=100,Y=11110111
+# tiem=               80000,E=001,A=101,Y=11110111
+# tiem=               81000,E=001,A=101,Y=11111111
+# tiem=               84000,E=001,A=101,Y=11101111
+# tiem=               85000,E=001,A=110,Y=11101111
+# tiem=               88000,E=001,A=110,Y=11111111
+# tiem=               88000,E=001,A=110,Y=11011111
+# tiem=               90000,E=001,A=111,Y=11011111
+# tiem=               92000,E=001,A=111,Y=11111111
+# tiem=               94000,E=001,A=111,Y=10111111
+# tiem=               97000,E=001,A=111,Y=11111111
+# tiem=               98000,E=001,A=111,Y=01111111
+# End time: 14:13:35 on Jan 11,2024, Elapsed time: 0:13:42
+# Errors: 1, Warnings: 0

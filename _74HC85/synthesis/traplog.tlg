@@ -1,0 +1,22 @@
+@N: CD630 :".\gentmp1860a05712":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0a05712":1185:7:1185:12|Synthesizing work.cmp_lt.fcomp.
+@N: CD630 :"syng0a05712":836:7:836:21|Synthesizing work.dwact_bl_fgcomp.fcomp.
+@W: CD638 :"syng0a05712":1037:9:1037:9|Signal e is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"syng0a05712":476:7:476:21|Synthesizing work.dwact_tl_cmplt4.impl1.
+@W: CD280 :"syng0a05712":529:10:529:14|Unbound component NOR2A mapped to black box
+@W: CD280 :"syng0a05712":521:10:521:13|Unbound component OR2A mapped to black box
+@W: CD280 :"syng0a05712":513:10:513:14|Unbound component AND2A mapped to black box
+@W: CD280 :"syng0a05712":495:10:495:14|Unbound component AOI1A mapped to black box
+@W: CD796 :"syng0a05712":545:14:545:14|Bit 9 of signal e is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"syng0a05712":495:10:495:14|Synthesizing work.aoi1a.syn_black_box.
+Post processing for work.aoi1a.syn_black_box
+@N: CD630 :"syng0a05712":521:10:521:13|Synthesizing work.or2a.syn_black_box.
+Post processing for work.or2a.syn_black_box
+@N: CD630 :"syng0a05712":529:10:529:14|Synthesizing work.nor2a.syn_black_box.
+Post processing for work.nor2a.syn_black_box
+@N: CD630 :"syng0a05712":513:10:513:14|Synthesizing work.and2a.syn_black_box.
+Post processing for work.and2a.syn_black_box
+Post processing for work.dwact_tl_cmplt4.impl1
+Post processing for work.dwact_bl_fgcomp.fcomp
+Post processing for work.cmp_lt.fcomp
+Post processing for work.top.gen

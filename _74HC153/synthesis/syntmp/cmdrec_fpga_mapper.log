@@ -1,0 +1,16 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  D:\chang\_74HC153\synthesis   -part A3P060  -package VQFP100  -grade STD    -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile D:\chang\_74HC153\synthesis\synlog\report\HC153_fpga_mapper.xml  -top_level_module  HC153  -licensetype  synplifypro_actel  -flow mapping  -mp  4  -prjfile  D:\chang\_74HC153\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  D:\chang\_74HC153\synthesis\HC153.edn   -freq 100.000   D:\chang\_74HC153\synthesis\synwork\HC153_prem.srd  -sap  D:\chang\_74HC153\synthesis\HC153.sap  -otap  D:\chang\_74HC153\synthesis\HC153.tap  -omap  D:\chang\_74HC153\synthesis\HC153.map  -devicelib  C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v  -sap  D:\chang\_74HC153\synthesis\HC153.sap  -ologparam  D:\chang\_74HC153\synthesis\syntmp\HC153.plg  -osyn  D:\chang\_74HC153\synthesis\HC153.srm  -prjdir  D:\chang\_74HC153\synthesis\  -prjname  HC153_syn  -log  D:\chang\_74HC153\synthesis\synlog\HC153_fpga_mapper.srr 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part A3P060 -package VQFP100 -grade STD -maxfan 24 -globalthreshold 50 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\HC153_fpga_mapper.xml -top_level_module HC153 -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -multisrs -oedif ..\HC153.edn -freq 100.000 ..\synwork\HC153_prem.srd -sap ..\HC153.sap -otap ..\HC153.tap -omap ..\HC153.map -devicelib C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v -sap ..\HC153.sap -ologparam HC153.plg -osyn ..\HC153.srm -prjdir ..\ -prjname HC153_syn -log ..\synlog\HC153_fpga_mapper.srr
+rc:0 success:1 runtime:0
+file:..\scratchproject.prs|io:o|time:1735456934|size:1662|exec:0|csum:
+file:..\HC153.edn|io:o|time:1735456936|size:7519|exec:0|csum:
+file:..\synwork\HC153_prem.srd|io:i|time:1735456936|size:1663|exec:0|csum:51E022B6A60E09987D9AC980FB5A12F6
+file:..\HC153.sap|io:o|time:1735456936|size:113|exec:0|csum:
+file:..\HC153.tap|io:o|time:0|size:0|exec:0|csum:
+file:..\HC153.map|io:o|time:1735456936|size:28|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\proasic3.v|io:i|time:1508984288|size:49355|exec:0|csum:8134F444E2143EC94271A46B5CC33DA2
+file:..\HC153.sap|io:o|time:1735456936|size:113|exec:0|csum:
+file:HC153.plg|io:o|time:1735456936|size:97|exec:0|csum:
+file:..\HC153.srm|io:o|time:1735456936|size:64232|exec:0|csum:
+file:..\synlog\HC153_fpga_mapper.srr|io:o|time:1735456936|size:7422|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509330672|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509332086|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2

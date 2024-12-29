@@ -1,0 +1,2 @@
+@W: CG133 :"D:\chang\_74HC161\hdl\HC161.v":8:15:8:16|Object TB is declared but not assigned. Either assign a value or remove the declaration.
+

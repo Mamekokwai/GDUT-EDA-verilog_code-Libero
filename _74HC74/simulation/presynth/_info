@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/chang/_74HC74/simulation
+v_74HC74
+Z1 !s110 1735457554
+!i10b 1
+!s100 GEcJ84AmN377MCol8bc<d2
+IFPDL1mDUFFXVVgb51gRHI2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/GDUT_EDA_Libero_verilog code/_74HC74/simulation
+w1735455707
+8D:/GDUT_EDA_Libero_verilog code/_74HC74/hdl/74HC74.v
+FD:/GDUT_EDA_Libero_verilog code/_74HC74/hdl/74HC74.v
+L0 1
+Z4 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z5 !s108 1735457554.000000
+!s107 D:/GDUT_EDA_Libero_verilog code/_74HC74/hdl/74HC74.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/GDUT_EDA_Libero_verilog code/_74HC74/hdl/74HC74.v|
+!s101 -O0
+!i113 1
+Z6 o-vlog01compat -work presynth -O0
+Z7 tCvgOpt 0
+n@_74@h@c74
+vHC74
+Z8 !s110 1735455564
+!i10b 1
+!s100 1Se79of1:Z?d]Z?_5kb[13
+I?UY:;_Bed6Q77eVXC[V6D1
+R2
+R0
+w1735455487
+8D:/chang/_74HC74/hdl/74HC74.v
+FD:/chang/_74HC74/hdl/74HC74.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1735455564.000000
+!s107 D:/chang/_74HC74/hdl/74HC74.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/chang/_74HC74/hdl/74HC74.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@h@c74
+vtb_HC74
+R8
+!i10b 1
+!s100 mDb=jjL`B8k]:ITOU9[3D0
+Ibbb7hbK]>B70UN@1YM[342
+R2
+R0
+w1735455479
+8D:/chang/_74HC74/stimulus/test74.v
+FD:/chang/_74HC74/stimulus/test74.v
+L0 2
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:/chang/_74HC74/stimulus/test74.v|
+!s90 -reportprogress|300|+incdir+D:/chang/_74HC74/stimulus|-vlog01compat|-work|presynth|D:/chang/_74HC74/stimulus/test74.v|
+!s101 -O0
+!i113 1
+R6
+!s92 +incdir+D:/chang/_74HC74/stimulus -vlog01compat -work presynth -O0
+R7
+ntb_@h@c74
+vtest74
+R1
+!i10b 1
+!s100 V>=i=Db1@dON9``DFZ7RR2
+IZWhe@8;3]@NI_kA>QGFT11
+R2
+R3
+w1735455706
+8D:/GDUT_EDA_Libero_verilog code/_74HC74/stimulus/test74.v
+FD:/GDUT_EDA_Libero_verilog code/_74HC74/stimulus/test74.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/GDUT_EDA_Libero_verilog code/_74HC74/stimulus/test74.v|
+!s90 -reportprogress|300|+incdir+D:/GDUT_EDA_Libero_verilog code/_74HC74/stimulus|-vlog01compat|-work|presynth|D:/GDUT_EDA_Libero_verilog code/_74HC74/stimulus/test74.v|
+!s101 -O0
+!i113 1
+R6
+!s92 {+incdir+D:/GDUT_EDA_Libero_verilog code/_74HC74/stimulus} -vlog01compat -work presynth -O0
+R7

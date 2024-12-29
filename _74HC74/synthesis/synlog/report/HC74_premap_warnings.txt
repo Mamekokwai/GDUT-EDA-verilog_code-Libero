@@ -1,0 +1,1 @@
+@W: MT530 :"d:\chang\_74hc74\hdl\74hc74.v":6:2:6:7|Found inferred clock HC74|Clk which controls 2 sequential elements including Qn. This clock has no specified timing constraint which may adversely impact design performance. 

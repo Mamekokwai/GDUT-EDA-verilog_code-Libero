@@ -1,0 +1,96 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:43:38 on Dec 29,2024
+# vlog -reportprogress 300 -vlog01compat -work presynth D:/chang/_74HC194/hdl/HC194.v 
+# -- Compiling module _74HC194
+# 
+# Top level modules:
+# 	_74HC194
+# End time: 14:43:38 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:43:38 on Dec 29,2024
+# vlog -reportprogress 300 "+incdir+D:/chang/_74HC194/stimulus" -vlog01compat -work presynth D:/chang/_74HC194/stimulus/test194.v 
+# -- Compiling module test194
+# 
+# Top level modules:
+# 	test194
+# End time: 14:43:38 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.test194 
+# Start time: 14:43:38 on Dec 29,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.test194
+# Loading presynth._74HC194
+# Time = 0 : CLR = 0, S = 00, D = 1010, SER = 0, Q = xxxx
+# Time = 5000 : CLR = 0, S = 00, D = 1010, SER = 0, Q = 1010
+# Time = 10000 : CLR = 1, S = 00, D = 1010, SER = 0, Q = 0000
+# Time = 20000 : CLR = 0, S = 00, D = 1100, SER = 0, Q = 0000
+# Time = 25000 : CLR = 0, S = 00, D = 1100, SER = 0, Q = 1100
+# Time = 30000 : CLR = 0, S = 01, D = 1100, SER = 1, Q = 1100
+# Time = 35000 : CLR = 0, S = 01, D = 1100, SER = 1, Q = 1110
+# Time = 40000 : CLR = 0, S = 10, D = 1100, SER = 0, Q = 1110
+# Time = 45000 : CLR = 0, S = 10, D = 1100, SER = 0, Q = 1100
+# Time = 50000 : CLR = 0, S = 01, D = 1100, SER = 1, Q = 1100
+# Time = 55000 : CLR = 0, S = 01, D = 1100, SER = 1, Q = 1110
+# Time = 60000 : CLR = 0, S = 11, D = 1100, SER = 1, Q = 1110
+# Time = 80000 : CLR = 1, S = 11, D = 1100, SER = 1, Q = 0000
+# Time = 90000 : CLR = 0, S = 11, D = 0011, SER = 0, Q = 0000
+# Time = 100000 : CLR = 0, S = 00, D = 0011, SER = 0, Q = 0000
+# Time = 105000 : CLR = 0, S = 00, D = 0011, SER = 0, Q = 0011
+# Time = 110000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0011
+# Time = 115000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1001
+# Time = 120000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 1001
+# Time = 125000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 0010
+# Time = 130000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0010
+# Time = 135000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1001
+# Time = 140000 : CLR = 0, S = 11, D = 0011, SER = 1, Q = 1001
+# Time = 160000 : CLR = 1, S = 11, D = 0011, SER = 1, Q = 0000
+# Time = 170000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0000
+# Time = 175000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1000
+# Time = 180000 : CLR = 0, S = 00, D = 0011, SER = 1, Q = 1000
+# Time = 185000 : CLR = 0, S = 00, D = 0011, SER = 1, Q = 0011
+# Time = 190000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0011
+# Time = 195000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1001
+# Time = 200000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 1001
+# Time = 205000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 0010
+# Time = 210000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0010
+# Time = 215000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1001
+# Time = 220000 : CLR = 0, S = 11, D = 0011, SER = 1, Q = 1001
+# Time = 240000 : CLR = 1, S = 11, D = 0011, SER = 1, Q = 0000
+# Time = 250000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 0000
+# Time = 260000 : CLR = 0, S = 00, D = 0011, SER = 0, Q = 0000
+# Time = 265000 : CLR = 0, S = 00, D = 0011, SER = 0, Q = 0011
+# Time = 270000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0011
+# Time = 275000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1001
+# Time = 280000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 1001
+# Time = 285000 : CLR = 0, S = 10, D = 0011, SER = 0, Q = 0010
+# Time = 290000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 0010
+# Time = 295000 : CLR = 0, S = 01, D = 0011, SER = 1, Q = 1001
+# Time = 300000 : CLR = 0, S = 11, D = 0011, SER = 1, Q = 1001
+# ** Note: $finish    : D:/chang/_74HC194/stimulus/test194.v(50)
+#    Time: 320 ns  Iteration: 0  Instance: /test194
+# 1
+# Break in Module test194 at D:/chang/_74HC194/stimulus/test194.v line 50
+# End time: 14:44:28 on Dec 29,2024, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0

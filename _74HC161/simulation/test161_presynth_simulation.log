@@ -1,0 +1,132 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:25:30 on Dec 29,2024
+# vlog -reportprogress 300 -vlog01compat -work presynth D:/chang/_74HC161/hdl/HC161.v 
+# -- Compiling module _74HC161
+# 
+# Top level modules:
+# 	_74HC161
+# End time: 14:25:30 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:25:30 on Dec 29,2024
+# vlog -reportprogress 300 "+incdir+D:/chang/_74HC161/stimulus" -vlog01compat -work presynth D:/chang/_74HC161/stimulus/test161.v 
+# -- Compiling module test161
+# 
+# Top level modules:
+# 	test161
+# End time: 14:25:30 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L presynth -t 1ps presynth.test161 
+# Start time: 14:25:30 on Dec 29,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading presynth.test161
+# Loading presynth._74HC161
+# Time = 0 : CLR = 0, ENP = 0, ENT = 0, PRE = 0000, Q = xxxx
+# Time = 5000 : CLR = 0, ENP = 0, ENT = 0, PRE = 0000, Q = 0000
+# Time = 10000 : CLR = 1, ENP = 0, ENT = 0, PRE = 0000, Q = 0000
+# Time = 20000 : CLR = 0, ENP = 0, ENT = 0, PRE = 0000, Q = 0000
+# Time = 30000 : CLR = 0, ENP = 0, ENT = 0, PRE = 1010, Q = 0000
+# Time = 35000 : CLR = 0, ENP = 0, ENT = 0, PRE = 1010, Q = 1010
+# Time = 40000 : CLR = 1, ENP = 0, ENT = 0, PRE = 1010, Q = 0000
+# Time = 50000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 55000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 65000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0010
+# Time = 75000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0011
+# Time = 85000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0100
+# Time = 95000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0101
+# Time = 105000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0110
+# Time = 115000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0111
+# Time = 125000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1000
+# Time = 135000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1001
+# Time = 145000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 155000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 160000 : CLR = 0, ENP = 1, ENT = 0, PRE = 1010, Q = 0001
+# Time = 165000 : CLR = 0, ENP = 1, ENT = 0, PRE = 1010, Q = 1010
+# Time = 270000 : CLR = 0, ENP = 0, ENT = 0, PRE = 1010, Q = 1010
+# Time = 380000 : CLR = 1, ENP = 0, ENT = 1, PRE = 1010, Q = 0000
+# Time = 390000 : CLR = 0, ENP = 0, ENT = 1, PRE = 1010, Q = 0000
+# Time = 400000 : CLR = 0, ENP = 0, ENT = 1, PRE = 0011, Q = 0000
+# Time = 410000 : CLR = 1, ENP = 0, ENT = 1, PRE = 0011, Q = 0000
+# Time = 420000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0000
+# Time = 425000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0001
+# Time = 435000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0010
+# Time = 445000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0011
+# Time = 455000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0100
+# Time = 465000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0101
+# Time = 475000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0110
+# Time = 485000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0111
+# Time = 495000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 1000
+# Time = 505000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 1001
+# Time = 515000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0000
+# Time = 525000 : CLR = 0, ENP = 1, ENT = 1, PRE = 0011, Q = 0001
+# Time = 530000 : CLR = 1, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 540000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 545000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 555000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0010
+# Time = 565000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0011
+# Time = 575000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0100
+# Time = 585000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0101
+# Time = 595000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0110
+# Time = 605000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0111
+# Time = 615000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1000
+# Time = 625000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1001
+# Time = 635000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 645000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 655000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0010
+# Time = 665000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0011
+# Time = 675000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0100
+# Time = 685000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0101
+# Time = 695000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0110
+# Time = 705000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0111
+# Time = 715000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1000
+# Time = 725000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1001
+# Time = 735000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 745000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 755000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0010
+# Time = 765000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0011
+# Time = 775000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0100
+# Time = 785000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0101
+# Time = 795000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0110
+# Time = 805000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0111
+# Time = 815000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1000
+# Time = 825000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1001
+# Time = 835000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 845000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 855000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0010
+# Time = 865000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0011
+# Time = 875000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0100
+# Time = 885000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0101
+# Time = 895000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0110
+# Time = 905000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0111
+# Time = 915000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1000
+# Time = 925000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 1001
+# Time = 935000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0000
+# Time = 945000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0001
+# Time = 955000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0010
+# Time = 965000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0011
+# Time = 975000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0100
+# Time = 985000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0101
+# Time = 995000 : CLR = 0, ENP = 1, ENT = 1, PRE = 1010, Q = 0110
+# End time: 14:27:21 on Dec 29,2024, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0

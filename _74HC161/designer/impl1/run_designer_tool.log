@@ -1,0 +1,94 @@
+Microsemi Libero Software
+Version: 11.9.1.0
+Release: v11.9 SP1
+
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'D:\chang\_74HC161\designer'
+Info: The design _74HC161.adb was last modified by software version 11.9.1.0.
+Opened an existing Libero design _74HC161.adb.
+WARNING: DEFUSR table not loaded - file:
+C:\Users\Administrator\AppData\Roaming\Actel/designer.def
+
+The Execute Script command succeeded ( 00:00:04 )
+This program can detect if an updated version of the software is available by
+checking the Actel web-site.
+
+Would you like to have this check automatically done when you startup the program?
+
+(To change this setting later, go to the File menu and select Preferences.
+From the Updates tab, you can change your selection.) [YES]
+Checking for software updates...
+Info: The software cannot reach the Microsemi SoC server to confirm the version you are running.
+      Visit
+      http://www.microsemi.com/products/fpga-soc/design-resources/design-software/libero-soc#do\
+      wnloads to download the latest major release or service pack.
+      You can check the version of your current installation by starting the tool and selecting
+      Help -> About.
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Sun Dec 29 14:29:23 2024
+
+Placer Finished: Sun Dec 29 14:29:23 2024
+Total Placer CPU Time:     00:00:00
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: _74HC161                        Started: Sun Dec 29 14:29:25 2024
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: _74HC161                        
+Finished: Sun Dec 29 14:29:26 2024
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:01
+Total Memory Usage: 110.5 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:08 )
+Back-annotated to the file(s):
+   .\_74HC161_ba.sdf
+   .\_74HC161_ba.v
+
+The Back-Annotate command succeeded ( 00:00:01 )
+
+The Export-map command succeeded ( 00:00:04 )
+Wrote to the file: D:\chang\_74HC161\designer\impl1\_74HC161.pdb
+CHECKSUM: CA20
+
+The Generate programming file command succeeded ( 00:00:04 )
+Design saved to file D:\chang\_74HC161\designer\impl1\_74HC161.adb.
+Wrote pin report to file: D:\chang\_74HC161\designer\impl1\_74HC161_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: D:\chang\_74HC161\designer\impl1\_74HC161_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:01 )
+Design closed.
+

@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/74HC153/HC153/simulation
+vHC153
+Z0 !s110 1703924484
+!i10b 1
+!s100 Jd6zL`_Xh=nN8QWbNUYzf1
+IOCz<Y@hPE:QX?FJKXaPQ[0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Administrator/Desktop/74HC153/HC153/simulation
+w1703921455
+8C:/Users/Administrator/Desktop/74HC153/HC153/hdl/HC153.v
+FC:/Users/Administrator/Desktop/74HC153/HC153/hdl/HC153.v
+L0 1
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1703924484.000000
+!s107 C:/Users/Administrator/Desktop/74HC153/HC153/hdl/HC153.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|C:/Users/Administrator/Desktop/74HC153/HC153/hdl/HC153.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+n@h@c153
+vtestbench
+R0
+!i10b 1
+!s100 ;1YJ3kXfc4V2?6@:P^;aA2
+IOcLP1YRdSNn5PCfnhO0kN1
+R1
+R2
+w1703921934
+8C:/Users/Administrator/Desktop/74HC153/HC153/stimulus/testbench.v
+FC:/Users/Administrator/Desktop/74HC153/HC153/stimulus/testbench.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Administrator/Desktop/74HC153/HC153/stimulus/testbench.v|
+!s90 -reportprogress|300|+incdir+C:/Users/Administrator/Desktop/74HC153/HC153/stimulus|-vlog01compat|-work|presynth|C:/Users/Administrator/Desktop/74HC153/HC153/stimulus/testbench.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+C:/Users/Administrator/Desktop/74HC153/HC153/stimulus -vlog01compat -work presynth -O0
+R6

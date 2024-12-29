@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/chang/_74HC161/simulation
+v_74HC161
+Z1 !s110 1735453530
+!i10b 1
+!s100 ;]U:OZBEmF`NkaGb]UdeF0
+IRg?aBPB50:LJzln_oC^hK3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1735443643
+Z3 8D:/chang/_74HC161/hdl/HC161.v
+Z4 FD:/chang/_74HC161/hdl/HC161.v
+L0 1
+Z5 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z6 !s108 1735453530.000000
+Z7 !s107 D:/chang/_74HC161/hdl/HC161.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/chang/_74HC161/hdl/HC161.v|
+!s101 -O0
+!i113 1
+Z9 o-vlog01compat -work presynth -O0
+Z10 tCvgOpt 0
+n@_74@h@c161
+vHC161
+!s110 1735442342
+!i10b 1
+!s100 K2O^b>`PDGNXne:i=l82Z2
+Il9_heH63SVScC5Q9hkVMW3
+R2
+R0
+w1735442080
+R3
+R4
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1735442342.000000
+R7
+R8
+!s101 -O0
+!i113 1
+R9
+R10
+n@h@c161
+vtest161
+R1
+!i10b 1
+!s100 khVUW`A@WBm[EW5PQB5k23
+InklBfU?=Vhi]9B5IEdC^23
+R2
+R0
+w1735453509
+8D:/chang/_74HC161/stimulus/test161.v
+FD:/chang/_74HC161/stimulus/test161.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/chang/_74HC161/stimulus/test161.v|
+!s90 -reportprogress|300|+incdir+D:/chang/_74HC161/stimulus|-vlog01compat|-work|presynth|D:/chang/_74HC161/stimulus/test161.v|
+!s101 -O0
+!i113 1
+R9
+!s92 +incdir+D:/chang/_74HC161/stimulus -vlog01compat -work presynth -O0
+R10

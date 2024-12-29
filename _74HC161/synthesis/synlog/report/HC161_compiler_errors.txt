@@ -1,0 +1,2 @@
+@E: CL123 :"D:\chang\_74HC161\hdl\HC161.v":11:4:11:9|Logic for TB does not match a standard flip-flop
+

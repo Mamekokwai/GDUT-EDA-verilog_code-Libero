@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  _3always  -multisrs  "D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\synwork\_3always_comp.srs"  -osyn  "D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\synwork\_3always_mult.srs"  -log  "D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\synlog\_3always_multi_srs_gen.srr" 
+relcom:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top _3always -multisrs "D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\synwork\_3always_comp.srs" -osyn "D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\synwork\_3always_mult.srs" -log "D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\synlog\_3always_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\_3always_comp.srs|io:i|time:1735459937|size:1843|exec:0|csum:E16988775687928A301DF40EB0B12A27
+file:..\synwork\_3always_mult.srs|io:o|time:1735459939|size:1568|exec:0|csum:
+file:..\synlog\_3always_multi_srs_gen.srr|io:o|time:1735459939|size:409|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

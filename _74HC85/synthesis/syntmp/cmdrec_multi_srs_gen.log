@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  HC85  -multisrs  C:\Users\Administrator\Desktop\111\74HC85\HC85\synthesis\synwork\HC85_comp.srs  -osyn  C:\Users\Administrator\Desktop\111\74HC85\HC85\synthesis\synwork\HC85_mult.srs  -log  C:\Users\Administrator\Desktop\111\74HC85\HC85\synthesis\synlog\HC85_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top HC85 -multisrs ..\synwork\HC85_comp.srs -osyn ..\synwork\HC85_mult.srs -log ..\synlog\HC85_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\HC85_comp.srs|io:i|time:1703925710|size:1483|exec:0|csum:47623E209236AFCE7FB8654913FD6979
+file:..\synwork\HC85_mult.srs|io:o|time:1703925711|size:1201|exec:0|csum:
+file:..\synlog\HC85_multi_srs_gen.srr|io:o|time:1703925711|size:512|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508986612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508986884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

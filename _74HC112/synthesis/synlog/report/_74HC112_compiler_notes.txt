@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\chang\_74HC112\hdl\HC112.v":1:7:1:14|Synthesizing module _74HC112 in library work.
+@N: CG179 :"D:\chang\_74HC112\hdl\HC112.v":15:20:15:20|Removing redundant assignment.
+@N|Running in 64-bit mode
+

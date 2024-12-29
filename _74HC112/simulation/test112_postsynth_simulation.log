@@ -1,0 +1,88 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library postsynth already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postsynth postsynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:54:50 on Dec 29,2024
+# vlog -reportprogress 300 -vlog01compat -work postsynth D:/chang/_74HC112/synthesis/_74HC112.v 
+# -- Compiling module _74HC112
+# 
+# Top level modules:
+# 	_74HC112
+# End time: 14:54:50 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:54:50 on Dec 29,2024
+# vlog -reportprogress 300 "+incdir+D:/chang/_74HC112/stimulus" -vlog01compat -work postsynth D:/chang/_74HC112/stimulus/test112.v 
+# -- Compiling module test112
+# 
+# Top level modules:
+# 	test112
+# End time: 14:54:50 on Dec 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postsynth -t 1ps postsynth.test112 
+# Start time: 14:54:50 on Dec 29,2024
+# //  ModelSim Microsemi 10.5c Jul 21 2016
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading postsynth.test112
+# Loading postsynth._74HC112
+# Loading proasic3.OUTBUF
+# Loading proasic3.DFN1P1C1
+# Loading proasic3.MX2B
+# Loading proasic3.INBUF
+# Loading proasic3.INV
+# Loading proasic3.VCC
+# Loading proasic3.GND
+# Loading proasic3.Dffpr
+# Loading proasic3.UDP_MUX2
+# Time = 0, S = 0, R = 0, J = 0, K = 0, Q = x, Q_N = x
+# Time = 10, S = 0, R = 1, J = 0, K = 0, Q = x, Q_N = x
+# Time = 10, S = 0, R = 1, J = 0, K = 0, Q = 0, Q_N = x
+# Time = 10, S = 0, R = 1, J = 0, K = 0, Q = 0, Q_N = 1
+# Time = 20, S = 0, R = 0, J = 0, K = 0, Q = 0, Q_N = 1
+# Time = 30, S = 1, R = 0, J = 0, K = 0, Q = 0, Q_N = 1
+# Time = 30, S = 1, R = 0, J = 0, K = 0, Q = 1, Q_N = 1
+# Time = 30, S = 1, R = 0, J = 0, K = 0, Q = 1, Q_N = 0
+# Time = 40, S = 0, R = 0, J = 0, K = 0, Q = 1, Q_N = 0
+# Time = 50, S = 0, R = 0, J = 1, K = 0, Q = 1, Q_N = 0
+# Time = 60, S = 0, R = 0, J = 0, K = 1, Q = 1, Q_N = 0
+# Time = 65, S = 0, R = 0, J = 0, K = 1, Q = 0, Q_N = 0
+# Time = 65, S = 0, R = 0, J = 0, K = 1, Q = 0, Q_N = 1
+# Time = 70, S = 0, R = 0, J = 1, K = 1, Q = 0, Q_N = 1
+# Time = 75, S = 0, R = 0, J = 1, K = 1, Q = 1, Q_N = 1
+# Time = 75, S = 0, R = 0, J = 1, K = 1, Q = 1, Q_N = 0
+# Time = 80, S = 0, R = 0, J = 0, K = 0, Q = 1, Q_N = 0
+# Time = 90, S = 0, R = 0, J = 1, K = 0, Q = 1, Q_N = 0
+# Time = 100, S = 0, R = 0, J = 0, K = 1, Q = 1, Q_N = 0
+# Time = 105, S = 0, R = 0, J = 0, K = 1, Q = 0, Q_N = 0
+# Time = 105, S = 0, R = 0, J = 0, K = 1, Q = 0, Q_N = 1
+# Time = 110, S = 0, R = 0, J = 1, K = 1, Q = 0, Q_N = 1
+# Time = 115, S = 0, R = 0, J = 1, K = 1, Q = 1, Q_N = 1
+# Time = 115, S = 0, R = 0, J = 1, K = 1, Q = 1, Q_N = 0
+# Time = 120, S = 0, R = 0, J = 0, K = 0, Q = 1, Q_N = 0
+# Time = 130, S = 1, R = 1, J = 0, K = 0, Q = 1, Q_N = 0
+# Time = 130, S = 1, R = 1, J = 0, K = 0, Q = 0, Q_N = 0
+# Time = 130, S = 1, R = 1, J = 0, K = 0, Q = 0, Q_N = 1
+# Time = 140, S = 0, R = 0, J = 0, K = 0, Q = 0, Q_N = 1
+# ** Note: $finish    : D:/chang/_74HC112/stimulus/test112.v(35)
+#    Time: 150 ns  Iteration: 0  Instance: /test112
+# 1
+# Break in Module test112 at D:/chang/_74HC112/stimulus/test112.v line 35
+# End time: 14:59:12 on Dec 29,2024, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 0

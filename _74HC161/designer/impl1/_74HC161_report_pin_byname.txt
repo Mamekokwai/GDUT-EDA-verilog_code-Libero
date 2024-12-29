@@ -1,0 +1,24 @@
+*****************************************************************
+Pin Report - Date: Sun Dec 29 14:30:50 2024 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+Design Name: _74HC161
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port   |Pin |Fixed |Function      |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-------|----|------|--------------|---------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+CLK     61   No     GCB2/IO42RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+CLR     100  No     IO00RSB0       LVCMOS33  ---                ---   None           ---   ---               No           No
+ENP     20   No     GEB1/IO75RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+ENT     21   No     GEB0/IO74RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+PRE[0]  15   No     GFA1/IO84RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+PRE[1]  96   No     GAB0/IO04RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+PRE[2]  95   No     GAB1/IO05RSB0  LVCMOS33  ---                ---   None           ---   ---               No           No
+PRE[3]  13   No     GFA0/IO85RSB1  LVCMOS33  ---                ---   None           ---   ---               No           No
+Q[0]    11   No     GFB0/IO86RSB1  LVCMOS33  12                 High  None           No    35                No           No
+Q[1]    97   No     GAA1/IO03RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Q[2]    98   No     GAA0/IO02RSB0  LVCMOS33  12                 High  None           No    35                No           No
+Q[3]    99   No     IO01RSB0       LVCMOS33  12                 High  None           No    35                No           No

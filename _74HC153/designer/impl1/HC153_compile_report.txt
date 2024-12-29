@@ -1,0 +1,206 @@
+***************************************************************************
+                               Status Report
+                          Sat Dec 30 16:23:23 2023 ***************************************************************************
+
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+File Name: C:\Users\Administrator\Desktop\74HC153\HC153\designer\impl1\HC153.adb
+Design Name: HC153  Design State: compile
+Last Saved: Sat Dec 30 15:39:31 2023
+
+***** Device Data **************************************************
+
+Family: ProASIC3  Die: A3P060  Package: 100 VQFP
+Speed: STD  Voltage: 1.5
+
+Restrict JTAG Pins: YES
+Restrict Probe Pins: YES
+
+Junction Temperature Range:   COM
+Voltage Range:   COM
+
+***** Import Variables *********************************************
+
+Source File(s) Imported on Sat Dec 30 16:23:22 2023:
+        C:\Users\Administrator\Desktop\74HC153\HC153\synthesis\HC153.edn
+
+
+***** CAE Variables ************************************************
+
+Back Annotation File: N/A
+
+
+***** Bitstream Variables ******************************************
+
+Bitstream File: N/A
+     Lock Mode: OFF
+
+
+***** Compile Variables ********************************************
+
+Netlist PIN properties overwrite existing properties: 0
+
+Compile Output:
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3
+Device      : A3P060
+Package     : 100 VQFP
+Source      : C:\Users\Administrator\Desktop\74HC153\HC153\synthesis\HC153.edn
+Format      : EDIF
+Topcell     : HC153
+Speed grade : STD
+Temp        : 0:25:70
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : No
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 0 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:      4  Total:   1536   (0.26%)
+    IO (W/ clocks)             Used:      8  Total:     71   (11.27%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:      4   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 0      | 6  (0.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 4            | 4
+    SEQ     | 0            | 0
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 7             | 0            | 0
+    Output I/O                            | 1             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 7     | 1      | 0
+
+I/O Placement:
+
+    Locked  :   0
+    Placed  :   8 ( 100.00% )
+    UnPlaced:   0
+
+Net information report:
+=======================
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    2       INT_NET       Net   : S_c[1]
+                          Driver: S_pad[1]
+    1       INT_NET       Net   : I_pmux_1
+                          Driver: I_pmux_1
+    1       INT_NET       Net   : I_pmux_2
+                          Driver: I_pmux_2
+    1       INT_NET       Net   : I_pmux
+                          Driver: I_pmux_3
+    1       INT_NET       Net   : E_c
+                          Driver: E_pad
+    1       INT_NET       Net   : S_c[0]
+                          Driver: S_pad[0]
+    1       INT_NET       Net   : I_c[0]
+                          Driver: I_pad[0]
+    1       INT_NET       Net   : I_c[1]
+                          Driver: I_pad[1]
+    1       INT_NET       Net   : I_c[2]
+                          Driver: I_pad[2]
+    1       INT_NET       Net   : I_c[3]
+                          Driver: I_pad[3]
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    2       INT_NET       Net   : S_c[1]
+                          Driver: S_pad[1]
+    1       INT_NET       Net   : I_pmux_1
+                          Driver: I_pmux_1
+    1       INT_NET       Net   : I_pmux_2
+                          Driver: I_pmux_2
+    1       INT_NET       Net   : I_pmux
+                          Driver: I_pmux_3
+    1       INT_NET       Net   : E_c
+                          Driver: E_pad
+    1       INT_NET       Net   : S_c[0]
+                          Driver: S_pad[0]
+    1       INT_NET       Net   : I_c[0]
+                          Driver: I_pad[0]
+    1       INT_NET       Net   : I_c[1]
+                          Driver: I_pad[1]
+    1       INT_NET       Net   : I_c[2]
+                          Driver: I_pad[2]
+    1       INT_NET       Net   : I_c[3]
+                          Driver: I_pad[3]
+
+

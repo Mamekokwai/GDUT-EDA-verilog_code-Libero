@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\chang\_74HC161\hdl\HC161.v":1:7:1:14|Synthesizing module _74HC161 in library work.
+@N|Running in 64-bit mode
+

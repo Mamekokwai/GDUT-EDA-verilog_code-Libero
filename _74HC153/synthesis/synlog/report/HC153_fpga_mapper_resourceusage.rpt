@@ -1,0 +1,28 @@
+Target Part: A3P060_VQFP100_STD
+Report for cell HC153.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               MX2     3      1.0        3.0
+             NOR2A     1      1.0        1.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     6                 4.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     7
+            OUTBUF     1
+                   -----
+             TOTAL     8
+
+
+Core Cells         : 4 of 1536 (0%)
+IO Cells           : 8
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 4 (0%)
+

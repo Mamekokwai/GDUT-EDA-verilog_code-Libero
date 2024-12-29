@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/74HC138/HC138/simulation
+vHC138
+!s110 1703923882
+!i10b 1
+!s100 n^P?`K:n^KbANH7W=jP_92
+IflKF6Mi=]HgjAL6nVaj[^1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703920702
+8D:/74HC138/HC138/synthesis/HC138.v
+FD:/74HC138/HC138/synthesis/HC138.v
+L0 5
+OW;L;10.5c;63
+r1
+!s85 0
+31
+!s108 1703923882.000000
+!s107 D:/74HC138/HC138/synthesis/HC138.v|
+!s90 -reportprogress|300|-vlog01compat|-work|postsynth|D:/74HC138/HC138/synthesis/HC138.v|
+!s101 -O0
+!i113 1
+o-vlog01compat -work postsynth -O0
+tCvgOpt 0
+n@h@c138

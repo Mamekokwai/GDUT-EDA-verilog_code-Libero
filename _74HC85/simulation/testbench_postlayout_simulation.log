@@ -1,0 +1,39 @@
+# Reading C:/Microsemi/Libero_SoC_v11.9/Modelsim/tcl/vsim/pref.tcl
+# do run.do
+# INFO: Simulation library ../designer/impl1/simulation/postlayout already exists
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap postlayout ../designer/impl1/simulation/postlayout 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.5c Lib Mapping Utility 2016.07 Jul 21 2016
+# vmap proasic3 C:/Microsemi/Libero_SoC_v11.9/Designer/lib/modelsim/precompiled/vlog/proasic3 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:03:09 on Jan 11,2024
+# vlog -reportprogress 300 -vlog01compat -work postlayout D:/74HC85/HC85/designer/impl1/HC85_ba.v 
+# -- Compiling module HC85
+# 
+# Top level modules:
+# 	HC85
+# End time: 14:03:09 on Jan 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi vlog 10.5c Compiler 2016.07 Jul 21 2016
+# Start time: 14:03:09 on Jan 11,2024
+# vlog -reportprogress 300 "+incdir+D:/74HC85/HC85/stimulus" -vlog01compat -work postlayout D:/74HC85/HC85/stimulus/testbench.v 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 14:03:09 on Jan 11,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L proasic3 -L postlayout -t 1ps -sdfmax /ul=D:/74HC85/HC85/designer/impl1/HC85_ba.sdf postlayout.testbench 
+# Start time: 14:03:09 on Jan 11,2024
+# ** Error: License checkout has been disallowed because
+# only one session is allowed to run on an uncounted nodelocked
+# license and an instance of ModelSim is already running with a
+# nodelocked license on this machine.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 16
+# End time: 14:03:30 on Jan 11,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

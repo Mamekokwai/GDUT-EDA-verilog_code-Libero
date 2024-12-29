@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN225 |Writing default property annotation file D:\GDUT_EDA_Libero_verilog code\three_always\synthesis\_3always.sap.
+@N: MO225 :"d:\gdut_eda_libero_verilog code\three_always\hdl\_3always.v":40:4:40:9|There are no possible illegal states for state machine current_state[3:0] (in view: work._3always(verilog)); safe FSM implementation is not required.

@@ -1,0 +1,23 @@
+Microsemi Libero Software
+Version: 11.9.1.0
+Release: v11.9 SP1
+
+Info: The design HC85.adb was last modified by software version 11.9.1.0.
+Opened an existing Libero design HC85.adb.
+'BA_NAME' set to 'HC85_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to 'C:\Users\Administrator\Desktop\111\74HC85\HC85\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+Back-annotated to the file(s):
+   .\HC85_ba.sdf
+   .\HC85_ba.v
+
+The Back-Annotate command succeeded ( 00:00:00 )
+Design saved to file C:\Users\Administrator\Desktop\111\74HC85\HC85\designer\impl1\HC85.adb.
+
+The Execute Script command succeeded ( 00:00:00 )
+Design closed.
+

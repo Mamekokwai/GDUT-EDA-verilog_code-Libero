@@ -1,0 +1,10 @@
+Selecting top level module _3always
+@N: CG364 :"D:\GDUT_EDA_Libero_verilog code\three_always\hdl\_3always.v":1:7:1:14|Synthesizing module _3always in library work.
+
+@N: CL201 :"D:\GDUT_EDA_Libero_verilog code\three_always\hdl\_3always.v":40:4:40:9|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11

@@ -1,0 +1,20 @@
+*****************************************************************
+Pin Report - Date: Sat Dec 30 16:23:32 2023 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+Design Name: HC153
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+E     34   No     IO63RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+I[0]  86   No     IO11RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+I[1]  93   No     GAC1/IO07RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+I[2]  94   No     GAC0/IO06RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+I[3]  91   No     IO09RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+S[0]  92   No     IO08RSB0       LVTTL    ---                ---   None           ---   ---               No           No
+S[1]  95   No     GAB1/IO05RSB0  LVTTL    ---                ---   None           ---   ---               No           No
+Y     35   No     IO62RSB1       LVTTL    12                 High  None           No    35                No           No

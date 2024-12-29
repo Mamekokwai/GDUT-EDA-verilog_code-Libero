@@ -1,0 +1,26 @@
+*****************************************************************
+Pin Report - Date: Sat Dec 30 15:23:19 2023 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP1
+Version: 11.9.1.0
+Design Name: HC138
+Family: ProASIC3
+Die: A3P060
+Package: 100 VQFP
+*****************************************************************
+Port |Pin |Fixed |Function      |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----|----|------|--------------|--------|------------------|-----|--------------|-----|-----------------|------------|--------------|
+A[0]  41   No     IO59RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+A[1]  45   No     GDB2/IO55RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+A[2]  32   No     IO65RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+E[1]  28   No     GEC2/IO69RSB1  LVTTL    ---                ---   None           ---   ---               No           No
+E[2]  31   No     IO66RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+E[3]  30   No     IO67RSB1       LVTTL    ---                ---   None           ---   ---               No           No
+Y[0]  40   No     IO60RSB1       LVTTL    12                 High  None           No    35                No           No
+Y[1]  34   No     IO63RSB1       LVTTL    12                 High  None           No    35                No           No
+Y[2]  42   No     IO58RSB1       LVTTL    12                 High  None           No    35                No           No
+Y[3]  44   No     GDC2/IO56RSB1  LVTTL    12                 High  None           No    35                No           No
+Y[4]  36   No     IO61RSB1       LVTTL    12                 High  None           No    35                No           No
+Y[5]  33   No     IO64RSB1       LVTTL    12                 High  None           No    35                No           No
+Y[6]  35   No     IO62RSB1       LVTTL    12                 High  None           No    35                No           No
+Y[7]  43   No     IO57RSB1       LVTTL    12                 High  None           No    35                No           No

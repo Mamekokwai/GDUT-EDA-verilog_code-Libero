@@ -1,0 +1,110 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    315-0128
+Date:        Sun Dec 29 14:59:14 2024
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log HC74_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+
+log file: "D:\chang\_74HC74\synthesis\HC74.srr"
+
+Running: synthesis in foreground
+
+
+
+Running HC74_syn|synthesis
+
+
+Running: compile (Compile) on HC74_syn|synthesis
+# Sun Dec 29 14:59:14 2024
+
+
+Running: compile_flow (Compile Process) on HC74_syn|synthesis
+# Sun Dec 29 14:59:14 2024
+
+
+Running: compiler (Compile Input) on HC74_syn|synthesis
+# Sun Dec 29 14:59:14 2024
+
+Copied D:\chang\_74HC74\synthesis\synwork\HC74_comp.srs to D:\chang\_74HC74\synthesis\HC74.srs
+
+
+compiler completed
+# Sun Dec 29 14:59:16 2024
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on HC74_syn|synthesis
+# Sun Dec 29 14:59:16 2024
+
+
+multi_srs_gen completed
+# Sun Dec 29 14:59:16 2024
+
+Return Code: 0
+Run Time:00h:00m:00s
+
+Copied D:\chang\_74HC74\synthesis\synwork\HC74_mult.srs to D:\chang\_74HC74\synthesis\HC74.srs
+
+Complete: Compile Process on HC74_syn|synthesis
+
+
+Running: premap (Pre-mapping) on HC74_syn|synthesis
+# Sun Dec 29 14:59:16 2024
+
+
+premap completed with warnings
+# Sun Dec 29 14:59:16 2024
+
+Return Code: 1
+Run Time:00h:00m:00s
+
+Complete: Compile on HC74_syn|synthesis
+
+
+Running: map (Map) on HC74_syn|synthesis
+# Sun Dec 29 14:59:16 2024
+
+License granted for 4 parallel jobs
+
+
+Running: fpga_mapper (Map & Optimize) on HC74_syn|synthesis
+# Sun Dec 29 14:59:16 2024
+
+Copied D:\chang\_74HC74\synthesis\synwork\HC74_m.srm to D:\chang\_74HC74\synthesis\HC74.srm
+
+
+fpga_mapper completed with warnings
+# Sun Dec 29 14:59:16 2024
+
+Return Code: 1
+Run Time:00h:00m:00s
+
+Complete: Map on HC74_syn|synthesis
+
+Complete: Logic Synthesis on HC74_syn|synthesis
+
+Copied D:\chang\_74HC74\synthesis\HC74.srr to D:\chang\_74HC74\synthesis\backup\HC74.srr
+
+TCL script complete: "HC74_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+
